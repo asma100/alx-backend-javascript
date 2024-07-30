@@ -1,0 +1,13 @@
+  export default function getStudentsByLocation (objects, city,  newGrades) {
+      let filteredcity =objects.filter(student => student.location === city);
+    function update(){
+        if(!newGrades){
+            student.grade = N/A;
+        }
+        student.grade=newGrades.grade;
+        return student.grade;
+    };
+   let updatedobj = objects.map(update());
+    return updatedobj;
+
+  }
