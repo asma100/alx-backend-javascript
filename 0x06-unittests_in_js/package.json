@@ -1,5 +1,16 @@
 {
+  "name": "alx-backend-javascript",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "sinon": "^19.0.2"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
   }
 }
